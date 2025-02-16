@@ -98,7 +98,7 @@ const LandingPage = () => {
           <IconButton
             borderRadius={50}
             as="a"
-            href="https://github.com/your-github"
+            href="https://github.com/cgonzalez87/my-react-app"
             target="_blank"
             aria-label="GitHub"
             icon={<FaGithub />}
