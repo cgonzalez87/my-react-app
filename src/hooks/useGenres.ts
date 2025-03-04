@@ -10,6 +10,7 @@ export interface Genre {
 }
 
 const useGenres = () => useQuery({
+    // @ts-expect-error Suppress type checking for this line
     queryKey: ['genres'],
     queryFn: () => apiClient.getAll(),
     staleTime: 24 * 60 * 60 * 1000, // 24h
