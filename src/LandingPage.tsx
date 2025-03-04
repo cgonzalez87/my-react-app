@@ -6,6 +6,9 @@ import {
   IconButton,
   HStack,
   Box,
+  Alert,
+  AlertIcon,
+  AlertTitle,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -83,6 +86,18 @@ const LandingPage = () => {
         >
           Check out my GameHub App
         </MotionButton>
+        <Box>
+          <Alert
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            textAlign="center"
+            status="warning"
+          >
+            <AlertIcon />
+            <AlertTitle>Testing Enviroment</AlertTitle>
+          </Alert>
+        </Box>
 
         {/* Social Links */}
         <HStack spacing={4} mt={4} alignItems="center" justifyContent="center">
