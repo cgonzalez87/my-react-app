@@ -86,7 +86,7 @@ const LandingPage = () => {
         >
           Check out my GameHub App
         </MotionButton>
-        <Box>
+        {/* <Box>
           <Alert
             display="flex"
             alignItems="center"
@@ -97,7 +97,7 @@ const LandingPage = () => {
             <AlertIcon />
             <AlertTitle>Testing Enviroment</AlertTitle>
           </Alert>
-        </Box>
+        </Box> */}
 
         {/* Social Links */}
         <HStack spacing={4} mt={4} alignItems="center" justifyContent="center">
