@@ -11,7 +11,7 @@ interface Plaforms {
 
 const usePlatforms = () => useQuery({
     queryKey: ['platforms'],
-    queryFn: () => apiClient.get<FetchResponse<Platform>>('/platforms').then(res => res.data),
+    queryFn: () => apiClient.get<FetchResponse<Platform>>('/platforms/lists/parents').then(res => res.data),
     staleTime: 24 * 60 * 60 * 1000, // 24h      
     // initialData: { count: 0, results: [] as Plaforms[] }
 })
