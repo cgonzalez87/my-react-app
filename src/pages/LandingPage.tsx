@@ -80,7 +80,7 @@ const LandingPage = () => {
         <MotionButton
           size="lg"
           colorScheme="teal"
-          onClick={() => navigate("/app")}
+          onClick={() => navigate("/home")}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
